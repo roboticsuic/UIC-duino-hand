@@ -43,5 +43,5 @@ _Definitions_:
 **Servo Motor**:
 - 9g.
 - https://grabcad.com/library/9g-servo-motor-1
-
+![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
   
