@@ -12,7 +12,7 @@ _Materials_:
   - Sandpaper.
 - **For the electronics of the hand**:
   - Arduino MKR 1000 WIFI.
-  - Servo motors.
+  - Servo motors. 
   
 _Definitions_:
 
@@ -40,5 +40,8 @@ _Definitions_:
 - LED_BUILTIN: 6.
 - Full-speed USB Device and embedded Host.
 
+**Servo Motor**:
+- 9g.
+- https://grabcad.com/library/9g-servo-motor-1
 
   
