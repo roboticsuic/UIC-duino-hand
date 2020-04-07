@@ -13,6 +13,7 @@ _Materials_:
 - **For the electronics of the hand**:
   - Arduino MKR 1000 WIFI.
   - Servo motors. 
+  - Cthulhu Shield sensor.
   
 _Definitions_:
 
@@ -44,5 +45,11 @@ _Definitions_:
 - 9g. https://grabcad.com/library/9g-servo-motor-1
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 ![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
+
+
+**Cthulhu Shield sensor**: 
+The Cthulhu Shield is an open-source Arduino Uno compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactile display signals on the tongue. The electrodes on the array can be activated with patterns of electrical pulses to depolarize nerve membranes in the tongue to create different types of touch sensations. You can use these touch sensations to draw shapes or simple images on the tongue, feel different sound frequencies, or receive turn by turn directions with your tongue.
+Additionally, the Cthulhu Shield can sense whether or not your tongue is in contact with different electrodes using capacitive sensing. You can use the Cthulhu Shield to send keystrokes to your computer, control the cursor, or even control a mobility device.
+
 
   
