@@ -2,7 +2,7 @@
 Project of the prosthetic hand:
 
 _Objectives_: 
-- Learn the basics of 3D printing and electronics in order to create a prostheic hand controlled with the Cthulhu Shield sensor.
+- Learn the basics of 3D printing and electronics in order to create a prosthetic hand controlled with the Cthulhu Shield sensor.
 - Use motors and electronic devices in order to understand its functions.
 
 _Materials_:
