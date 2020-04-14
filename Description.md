@@ -71,6 +71,7 @@ Doing reference to the code and the scheme, the code is designed to be able to m
 
 SolidWorks:-------
 For a better final result of the 3D printed pieces we used sandpaper to polish them.
+
 Unity:--------
 
 _Conclusions_:
