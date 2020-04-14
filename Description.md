@@ -9,14 +9,16 @@ _Materials_:
 - **For 3D printing**:
   - PLA for the entire hand except the junctions that are of TPU.
   - Ultimaker 2+.
-  - Sandpaper. (To polish the final pieces).
+  - Sandpaper. 
 - **For the electronics of the hand**:
   - Arduino MKR 1000 WIFI.
   - Servo motors. 
   - Cthulhu Shield sensor.
   - Arduino cables.
-  - Straw / 3D printed tube. (To guide the thread from the fingers to the servo).
+  - Straw / 3D printed tube. 
   - Fishing line.
+- **For Unity 3D**:
+  - Unity software.
   
 _Definitions_:
 
@@ -68,7 +70,7 @@ On the other side, to distribute the motor servos, the Arduino MKR and the guide
 Doing reference to the code and the scheme, the code is designed to be able to maintain a certain position of the hand until the MKR recieve a new input to change the position, in that way, we avoid the patient to exercise compression force in the Cthulhu constantly generating fatigue. To continue as we don't have in thinkercad nor in physic the Cthulhu sensor, we used two buttons to simulate the Cthulhu sensor function of closing and opening the prosthetic hand.
 
 SolidWorks:-------
-
+For a better final result of the 3D printed pieces we used sandpaper to polish them.
 Unity:--------
 
 _Conclusions_:
