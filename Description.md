@@ -63,7 +63,7 @@ For this project, we just wanted to create a movement of close/open the hand, th
 We decided to use the same thread material that is used in fishing because is transparent (_hence give a better view of the prosthetic hand_) and offers better elasticity than others. Moreover, the length of the fishing line needed depends on the size of your prosthetic hand, in our case we will need -------cm.
 
 On the other side, to distribute the motor servos, the Arduino MKR and the guide tubes inside the box of the prosthetic hand, we have plenty of options, for example: use a vertical servo and a drum to role the thread, use a vertical servo and a gripper... But due the design of the box we had limitations in which option to choose, hence the option that we choosed is to use a horitzontal servo (_because the height of the box is not high enough_) that goes from 0-80 degrees with a guide tube. See the image bellow:
-![design of the position servo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
+![design of the position servo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/guidetubedesignneedstobechanged.png)--------we need to change the image to the good one.
 
 Doing reference to the code and the scheme, the code is designed to be able to maintain a certain position of the hand until the MKR recieve a new input to change the position, in that way, we avoid the patient to exercise compression force in the Cthulhu constantly generating fatigue. To continue as we don't have in thinkercad nor in physic the Cthulhu sensor, we used two buttons to simulate the Cthulhu sensor function of closing and opening the prosthetic hand.
 
@@ -71,6 +71,6 @@ SolidWorks:-------
 
 Unity:--------
 
-  _Conclusions_:
+_Conclusions_:
   
-  We believe that human's the simplest happiness come from physical activity.
+We believe that human's the simplest happiness come from physical activity.
