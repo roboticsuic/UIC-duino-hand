@@ -2,7 +2,7 @@
 Servo mi_servo;
 
 
-int grados= 90;
+int grados= 0;
 
 int suma = 8;
 
