@@ -14,15 +14,19 @@ _Materials_:
   - Sandpaper
 - **For the electronics of the hand**:
   - Arduino MKR 1000 WIFI
-  - Servo motors
+  - Servo motor (nombre del tipo)
   - Cthulhu Shield sensor
   - Arduino cables
   - Straw / 3D printed tube
   - Fishing line
-- **For Unity 3D**:
-  - Unity software
+- **Softwares**:
+  - Unity 3D (to create animations and represent how out prosthetic hand works)
+  - SolidWorks (to create some pieces that we need)
+  - Ultimaker Cura (to adjust setting parameters of the 3D printer)
+  
   
 _Definitions_:
+
 **MKR 1000 WIFI**:
 - Price: €26.50 [https://store.arduino.cc/arduino-mkr1000-wifi].
 - Size: Length 61.5mm Width 25mm.
