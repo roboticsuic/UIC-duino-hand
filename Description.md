@@ -78,7 +78,7 @@ Doing reference to the code and the scheme, the code is designed to be able to m
 With this code our aim is to control a servo motor with 2 buttons that simulate the Cthulhu sensor function. In this case, one button is to move the hand from 0º to 180º (to open the hand) and the other one is to move the hand from 180º to 0º (to close the hand). In the case of the Cthulhu sensor, one electrode will be to open the hand and another to close it. 
 
 Now, we are going to explain the **schematic image** which shows the connection of the Arduino with the electronic elements: 
-
+(UICduinohand/schematics/servo with two pushbuttons.png)
   - As we can see, the 5V is connected to the positive pole of the servo as a supplying power. 
   - The ground (GND) is connected to the ground black cable as a reference to all other electronic parts, where the electrical level is at 0 V. 
    - The other cable is the signal to move the servo motor to the required angle, that signal corresponds to a PWM (Pulse Width Modulation, a technique for getting analog results with digital means). This cable is connected to the pin 2. 
