@@ -1,6 +1,6 @@
 # UICduinohand 
 ## Project of a prosthetic hand
-This project is based on the manufacture of a prosthetic hand, a device designed to help those with loss of hand and forearm to retain the function and appearance of a hand. Here we intend to report on how we created an electric prosthetic hand that has a set of fully articulated fingers. The wearer can manipulate the hand by moving a specific part of their body, in this case the tongue. It is a very innovative project because through a tongue sensor, which has built-in electrodes that show the signals of the tongue tactilely, we connect it to a 5V Arduino plate allowing to activate a movement of our prosthetic hand as it is the clamping (hand close and open).
+This project is based on the manufacture of a prosthetic hand, a device designed to help those with loss of hand and forearm to retain the function and appearance of the missing section. Here we intend to report on how we created an electric prosthetic hand that has a set of fully articulated fingers. The wearer can manipulate the hand by moving a specific part of their body, in this case the tongue. It is a very innovative project because through a tongue sensor, which has built-in electrodes that show the signals of the tongue tactilely, we connect it to a 5V Arduino plate allowing to activate a movement of our prosthetic hand as it is the clamping (hand close and open).
 
 _Objectives_: 
 - Learn the basics of 3D printing and electronics in order to create a prosthetic hand controlled with the Cthulhu Shield sensor.
