@@ -20,7 +20,7 @@ _Materials_:
   - Straw / 3D printed tube
   - Fishing line
 - **Softwares**:
-  - Unity 3D (to create animations and represent how out prosthetic hand works)
+  - Unity 3D (to create animations and represent how the prosthetic hand works)
   - SolidWorks (to create some pieces that we need)
   - Ultimaker Cura (to adjust setting parameters of the 3D printer)
   
