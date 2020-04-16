@@ -115,7 +115,14 @@ For a better final result of the 3D printed pieces we used sandpaper to polish t
 **Unity**:--------
 
 _Conclusions_:
-  
+We could conclude this project by saying that we have learned different variables to take into account when creating a prosthesis. 
+We have been able to program with Arduino, seeing how we should create the circuit and the code, facing the circumstances that we had, simulating with buttons the sensor function of closing and opening the hand.
+We have put design into practice, either at the level of computer aided design for 3D mechanical modeling, or for creating virtual reality visualizations.
+In this case, the hand has many movements, of which we have focused only on recreating one of them. As a future project, we think it would be great to be able to incorporate more movements each time, perhaps progressively, to give those who require the prosthesis a high degree of freedom.
+On the other hand, we have also been able to see that the tongue sensor we have used in the project can have many uses, among them the development of sensory substitution. It is very interesting to contemplate the idea that sensory substitution tools and techniques take the sensory information normally received in a sensory organ and can be presented in another way to another sensory organ. So we would be talking about recovering sensory information that has been lost, and learning to process it through another sensory organ.
+
+Translated with www.DeepL.com/Translator (free version)
+
 **We believe that the simplest human's happiness come from physical activity.**
 
 
