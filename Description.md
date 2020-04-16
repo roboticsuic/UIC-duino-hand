@@ -64,7 +64,7 @@ Additionally, the Cthulhu Shield can sense whether or not your tongue is in cont
 
 Good video explanation: https://www.youtube.com/watch?time_continue=197&v=wd38Go9tbds&feature=emb_title
 
-**Results**:
+_Results_:
 
 For this project, we just wanted to create a movement of close/open the hand, therefore with one servo we have enough to move all the fingers at the same time. However, as the fingers are in different positions we need to use a straw or a 3D printed tube (_depending on the circumstances of the quarantine, because the best option is a 3D printed tube because offers better resistance, but if we are not able to use the 3D printer of the lab then a straw is also useful_) to guide the fishing line of each finger to the servo motor.
 
@@ -114,7 +114,7 @@ For a better final result of the 3D printed pieces we used sandpaper to polish t
 
 **Unity**:--------
 
-**Conclusions**:
+_Conclusions_:
   
 **We believe that the simplest human's happiness come from physical activity.**
 
