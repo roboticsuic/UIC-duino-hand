@@ -23,7 +23,6 @@ _Materials_:
   - Unity software
   
 _Definitions_:
-
 **MKR 1000 WIFI**:
 - Price: €26.50 [https://store.arduino.cc/arduino-mkr1000-wifi].
 - Size: Length 61.5mm Width 25mm.
