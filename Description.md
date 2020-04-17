@@ -111,7 +111,7 @@ In the **void loop**, we have 2 conditions ‘’if’’.
 
 
 **SolidWorks**:-------
-For a better final result of the 3D printed pieces we used sandpaper to polish them.
+For a better final result of the 3D printed pieces we used sandpaper to polish them. Moreover, we had to modify the box where we put the electronics to optimize the space and put an arduino mkr, although the use of smaller arduinos to control servos would be a more suitable option.
 
 **Unity**:--------
 
