@@ -63,7 +63,7 @@ _Definitions_:
 - You can use any servo code, hardware or library to control these servos. 
 - Good for beginners who want to make stuff move without building a motor controller with feedback and gear box, specially since it will fit in small places. 
 - It comes with a 3 horns (arms) and hardware.
-![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
+![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimensionsservo.png)
 
 **Cthulhu Shield sensor**: 
 
