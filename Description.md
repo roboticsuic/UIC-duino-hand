@@ -53,10 +53,13 @@ _Definitions_:
 - Full-speed USB Device and embedded Host.
 
 **Servo Motor**:
-- 9g. 
-- We took it from: https://grabcad.com/library/9g-servo-motor-1
+- RC plane "9g" servo motor. 
+- We took it from: https://grabcad.com/library/9g-servo-motor-1 (modelled and rendered in Solidworks)
 
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
+
+Here we can see some important aspects to considerabout this servo motor:
+
 ![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
 **Cthulhu Shield sensor**: 
