@@ -57,14 +57,13 @@ _Definitions_:
 - We took it from: https://grabcad.com/library/9g-servo-motor-1 (modelled and rendered in Solidworks)
 
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
-
 - Tiny and lightweight with high output power. 
 - Servo can rotate approximately 180 degrees (90 in each direction), and works just like the standard kinds but smaller. 
 - You can use any servo code, hardware or library to control these servos. 
 - Good for beginners who want to make stuff move without building a motor controller with feedback and gear box, specially since it will fit in small places. 
 - It comes with a 3 horns (arms) and hardware.
-![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimensionsservo.png)
 
+![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimensionsservo.png)
 **Cthulhu Shield sensor**: 
 
 The Cthulhu Shield is an open-source Arduino Uno compatible sensory substitution/sensory augmentation device. It uses an 18 electrode grid to tactile display signals on the tongue. The electrodes on the array can be activated with patterns of electrical pulses to depolarize nerve membranes in the tongue to create different types of touch sensations. You can use these touch sensations to draw shapes or simple images on the tongue, feel different sound frequencies, or receive turn by turn directions with your tongue.
