@@ -53,7 +53,9 @@ _Definitions_:
 - Full-speed USB Device and embedded Host.
 
 **Servo Motor**:
-- 9g. https://grabcad.com/library/9g-servo-motor-1
+- 9g. 
+- We took it from: https://grabcad.com/library/9g-servo-motor-1
+
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 ![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
