@@ -59,8 +59,7 @@ _Definitions_:
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 
 Here we can see some important aspects to considerabout this servo motor:
-
-![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
+![dimensionsservo (https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
 **Cthulhu Shield sensor**: 
 
@@ -73,10 +72,12 @@ _Results_:
 
 For this project, we just wanted to create a movement of close/open the hand, therefore with one servo we have enough to move all the fingers at the same time. However, as the fingers are in different positions we need to use a straw or a 3D printed tube (_depending on the circumstances of the quarantine, because the best option is a 3D printed tube because offers better resistance, but if we are not able to use the 3D printer of the lab then a straw is also useful_) to guide the fishing line of each finger to the servo motor.
 
-We decided to use the same thread material that is used in fishing because is transparent (_hence give a better view of the prosthetic hand_) and offers better elasticity than others. Moreover, the length of the fishing line needed depends on the size of your prosthetic hand, in our case we will need -------cm.
+We decided to use the same thread material that is used in fishing because is transparent (_hence give a better view of the prosthetic hand_) and offers better elasticity than others. Moreover, the length of the fishing line needed depends on the size of your prosthetic hand, in our case we will need --- cm.
 
 On the other side, to distribute the motor servos, the Arduino MKR and the guide tubes inside the box of the prosthetic hand, we have plenty of options, for example: use a vertical servo and a drum to role the thread, use a vertical servo and a gripper... But due the design of the box we had limitations in which option to choose, hence the option that we choosed is to use a horitzontal servo (_because the height of the box is not high enough_) that goes from 0-180 degrees with a guide tube. See the image bellow:
+
 ![hole hand ensambled](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/holeprothetic.jpg)
+
 ![design of the position servo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/guidetubedesignneedstobechanged.png)--------we need to change the image for the good one.
 
 Doing reference to the code and the scheme, the code is designed to be able to maintain a certain position of the hand until the MKR recieve a new input to change the position, in that way, we avoid the patient to exercise compression force in the Cthulhu constantly generating fatigue. To continue as we don't have in thinkercad nor in physic the Cthulhu sensor, we used two buttons to simulate the Cthulhu sensor function of closing and opening the prosthetic hand.
@@ -84,6 +85,8 @@ Doing reference to the code and the scheme, the code is designed to be able to m
 With this code our aim is to control a servo motor with 2 buttons that simulate the Cthulhu sensor function. In this case, one button is to move the hand from 0º to 180º (to open the hand) and the other one is to move the hand from 180º to 0º (to close the hand). In the case of the Cthulhu sensor, one electrode will be to open the hand and another to close it. 
 
 Now, we are going to explain the **schematic image** which shows the connection of the Arduino with the electronic elements:
+
+![servo with two pushbuttons] (https://github.com/roboticsuic/UICduinohand/blob/master/code%20schematics/servo%20with%20two%20pushbuttons.png)
 
   - As we can see, the 5V is connected to the positive pole of the servo as a supplying power. 
   - The ground (GND) is connected to the ground black cable as a reference to all other electronic parts, where the electrical level is at 0 V. 
