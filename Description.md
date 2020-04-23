@@ -80,6 +80,9 @@ On the other side, to distribute the motor servos, the Arduino MKR and the guide
 
 ![design of the position servo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/guidetubedesignneedstobechanged.png)--------we need to change the image for the good one.
 
+
+
+
 Doing reference to the code and the scheme, the code is designed to be able to maintain a certain position of the hand until the MKR recieve a new input to change the position, in that way, we avoid the patient to exercise compression force in the Cthulhu constantly generating fatigue. To continue as we don't have in thinkercad nor in physic the Cthulhu sensor, we used two buttons to simulate the Cthulhu sensor function of closing and opening the prosthetic hand.
 
 With this code our aim is to control a servo motor with 2 buttons that simulate the Cthulhu sensor function. In this case, one button is to move the hand from 0º to 180º (to open the hand) and the other one is to move the hand from 180º to 0º (to close the hand). In the case of the Cthulhu sensor, one electrode will be to open the hand and another to close it. 
@@ -117,7 +120,7 @@ In **SolidWorks**, a computer assisted design software to model 3D parts and ass
 Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with Ultimaker 2+.
 For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
-With **Unity**, 
+With **Unity**, we tried to do to a real-time visualization of how the prosthetic hand works ...
 
 _Conclusions_:
 
