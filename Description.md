@@ -58,7 +58,7 @@ _Definitions_:
 
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 
-Here we can see some important aspects to considerabout this servo motor:
+Here we can see some important aspects to consider about this servo motor:
 ![dimensionsservo] (https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
 **Cthulhu Shield sensor**: 
@@ -109,18 +109,15 @@ In the _void loop_, we have 2 conditions ‘’if’’.
 - _digitalRead_ function: It asks for the pin 8 and it is activated with a LOW state. And with ‘grados++’ you start increasing the degrees. The following condition if is to protect the servo motor, it is a condition for the motor to not exceed the 180º.
 
 - The second big condition is the same but it corresponds to the pin9, and ‘grados - -' reduces the degrees. And the following condition guarantee to get to 0º and to not exceed it. 
-- _mi_servo.write(grados)_: It writes a new angle in degrees
+- _mi_servo.write(grados)_: It writes a new angle in degrees.
 - _delay(10)_; It is used to write between degrees and present a good lecture in Arduino and the servo.
 
 
+In **SolidWorks**, a computer assisted design software to model 3D parts and assemblies and 2D plans, we mainly use it to take measurements of some parts to be able to think how we would put all the electronic part. Once we decided that we were going to use only one servo and specifically the model chosen, we had to modify the box where we put the electronics to optimize the space and put an arduino mkr (although the use of smaller arduinos to control servos would be a more suitable option). Also with Solidworks we design a inner guide of the box and a hole hiding to route the lines and to make them not entangled between themselves when they are pulled by the servo, to make the movement of closing the hand and then the movement of opening. 
+Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with Ultimaker 2+.
+For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
-
-
-
-**SolidWorks**:-------
-For a better final result of the 3D printed pieces we used sandpaper to polish them. Moreover, we had to modify the box where we put the electronics to optimize the space and put an arduino mkr, although the use of smaller arduinos to control servos would be a more suitable option.
-
-**Unity**:--------
+With **Unity**, 
 
 _Conclusions_:
 
