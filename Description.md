@@ -97,22 +97,20 @@ Then, we have to connect the 2 buttons and 2 resistances for increasing or decre
 
 Regarding the **code**: 
 
-At first, we have to implement the **Servo.h** library and we have declared the function Servo called as **mi_servo**. 
-Then, we declare **3 variables integer**. The first one indicates the initial position (which in this case is 0º) and the second and third ones refers to the buttons that increase or decrease the angle.
+At first, we have to implement the _Servo.h_ library and we have declared the function Servo called as _mi_servo_. 
+Then, we declare 3 variables integer. The first one indicates the initial position (which in this case is 0º) and the second and third ones refers to the buttons that increase or decrease the angle.
 
-After this, **void setup** is used to configure the initial parameters:
-    - mi_servo.attach (2,750,1800): We use the attach function to attach the servo variable to a pin, where 2 refers to the pin 2 connected to the servo. In PWM, 750 ms represents 0º and 1800 ms represents 180º. It is a conversion from servo pulses to degrees.
-   - Then, we configure the input pins with pinMode
-   - Initialize your servo motor with the function ’’.write’’, in this case it will move 90º
+After this, _void setup_ is used to configure the initial parameters:
+    - _mi_servo.attach (2,750,1800)_: We use the attach function to attach the servo variable to a pin, where 2 refers to the pin 2 connected to the servo. In PWM, 750 ms represents 0º and 1800 ms represents 180º. It is a conversion from servo pulses to degrees.
+   - Then, we configure the input pins with _pinMode_.
+   - Initialize your servo motor with the function ’’.write’’, in this case it will move 90º.
 
-
-In the **void loop**, we have 2 conditions ‘’if’’.
-- ‘digitalRead’ function: It asks for the pin 8 and it is activated with a LOW state. And with ‘grados++’ you start increasing the degrees. The following condition if is to protect the servo motor, it is a condition for the motor to not exceed the 180º.
+In the _void loop_, we have 2 conditions ‘’if’’.
+- _digitalRead_ function: It asks for the pin 8 and it is activated with a LOW state. And with ‘grados++’ you start increasing the degrees. The following condition if is to protect the servo motor, it is a condition for the motor to not exceed the 180º.
 
 - The second big condition is the same but it corresponds to the pin9, and ‘grados - -' reduces the degrees. And the following condition guarantee to get to 0º and to not exceed it. 
-
-- mi_servo.write (grados): It writes a new angle in degrees
-- delay(10); It is used to write between degrees and present a good lecture in Arduino and the servo.
+- _mi_servo.write(grados)_: It writes a new angle in degrees
+- _delay(10)_; It is used to write between degrees and present a good lecture in Arduino and the servo.
 
 
 
