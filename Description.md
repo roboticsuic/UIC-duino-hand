@@ -58,7 +58,11 @@ _Definitions_:
 
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 
-Here we can see some important aspects to consider about this servo motor:
+- Tiny and lightweight with high output power. 
+- Servo can rotate approximately 180 degrees (90 in each direction), and works just like the standard kinds but smaller. 
+- You can use any servo code, hardware or library to control these servos. 
+- Good for beginners who want to make stuff move without building a motor controller with feedback and gear box, specially since it will fit in small places. 
+- It comes with a 3 horns (arms) and hardware.
 ![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
 **Cthulhu Shield sensor**: 
