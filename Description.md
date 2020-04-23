@@ -59,7 +59,7 @@ _Definitions_:
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 
 Here we can see some important aspects to consider about this servo motor:
-![dimensionsservo] (https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
+![dimensionsservo](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
 **Cthulhu Shield sensor**: 
 
