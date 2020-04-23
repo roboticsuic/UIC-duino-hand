@@ -59,7 +59,7 @@ _Definitions_:
 ![servo-motor](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/servo%20motor.png)
 
 Here we can see some important aspects to considerabout this servo motor:
-![dimensionsservo (https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
+![dimensionsservo] (https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/dimesionsservo.png)
 
 **Cthulhu Shield sensor**: 
 
@@ -87,6 +87,7 @@ With this code our aim is to control a servo motor with 2 buttons that simulate 
 Now, we are going to explain the **schematic image** which shows the connection of the Arduino with the electronic elements:
 
 ![servo with two pushbuttons] (https://github.com/roboticsuic/UICduinohand/blob/master/code%20schematics/servo%20with%20two%20pushbuttons.png)
+
 
   - As we can see, the 5V is connected to the positive pole of the servo as a supplying power. 
   - The ground (GND) is connected to the ground black cable as a reference to all other electronic parts, where the electrical level is at 0 V. 
