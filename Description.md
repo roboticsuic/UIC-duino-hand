@@ -122,7 +122,7 @@ In **SolidWorks**, a computer assisted design software to model 3D parts and ass
 Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with Ultimaker 2+.
 For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
-With **Unity**, we tried to do to a real-time visualization of how the prosthetic hand works ...
+With **Unity**, we tried to do to a real-time visualization of how the prosthetic hand works. This involved the use of the real-time engine of Unity linked with 3D rigging programs (in this case Blender was the idea). The idea was to open and close the animated hand depending on the input of the Arduino program mentioned avobe. Due to limited knowledge on Unity and some technical problems, finally, this couldn't be accomplished. Instead a 3D view of the completed hand has been done in Blender to show the final result of the prosthetics: 
 
 _Conclusions_:
 
