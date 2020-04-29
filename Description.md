@@ -81,7 +81,8 @@ On the other side, to distribute the motor servos, the Arduino MKR and the guide
 
 ![hole hand ensambled](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/holeprothetic.jpg)
 
-![scheme of how hand works](https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/scheme%20of%20how%20hand%20works.png)
+[scheme of how hand works
+(https://github.com/roboticsuic/UICduinohand/blob/master/3D%20files/images/scheme%20of%20how%20hand%20works.png)
 
 
 
