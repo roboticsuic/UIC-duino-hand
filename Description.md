@@ -15,7 +15,7 @@ _Materials_:
   - Sandpaper
 - **For the electronics of the hand**:
   - Arduino MKR 1000 WIFI
-  - Servo motor (nombre del tipo)
+  - Servo motor "9g"
   - Cthulhu Shield sensor
   - Arduino cables
   - Straw / 3D printed tube
