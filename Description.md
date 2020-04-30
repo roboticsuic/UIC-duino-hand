@@ -120,19 +120,29 @@ In the _void loop_, we have 2 conditions ‘’if’’.
 
 In **SolidWorks**, a computer assisted design software to model 3D parts and assemblies and 2D plans, we mainly use it to take measurements of some parts to be able to think how we would put all the electronic part. Once we decided that we were going to use only one servo and specifically the model chosen, we had to modify the box where we put the electronics to optimize the space and put an arduino mkr (although the use of smaller arduinos to control servos would be a more suitable option). Also with Solidworks we design a inner guide of the box and a hole hiding to route the lines and to make them not entangled between themselves when they are pulled by the servo, to make the movement of closing the hand and then the movement of opening. 
 Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with _Ultimaker 2+_.
+
   _Printing parameters for PLA_:
-  - Layer height: 0.2mm               - Travel speed: 100mm/s
-  - Wall thickness: 25%               - Enable print cooling: 
-  - Infill thickness: 25%             - Support: not needed.
-  - Top/Bottom thickness: 1mm         - Top/Bottom pattern: ZigZag
-  - Build plate temperature: 60ºC     - Nozzle size: 0.4mm
-  - Filament diameter: 2.85           - Build plate adhesion type: Brim
+  - Layer height: 0.2mm               
+  - Wall thickness: 25%                
+  - Infill thickness: 25%             
+  - Top/Bottom thickness: 1mm         
+  - Build plate temperature: 60ºC     
+  - Filament diameter: 2.85           
   - Printing temperature: 210ºC
   - Print speed: 60 mm/sec.
+  - Travel speed: 100mm/s
+  - Enable print cooling: 
+  - Support: not needed
+  - Top/Bottom pattern: ZigZag
+  - Nozzle size: 0.4mm
+  - Build plate adhesion type: Brim
+  
   _Printing parameters for TPU_:    
-  - Printing temperature: 220-260ºC   - Bed temperature: 40ºC
-  - Cooling fan: 0%                   - Print speed: 15-40mm/sec.
+  - Printing temperature: 220-260ºC   
+  - Cooling fan: 0%                   
   - Min. layer height: ≥0.1mm
+  - Bed temperature: 40ºC
+  - Print speed: 15-40mm/sec.
   
 For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
