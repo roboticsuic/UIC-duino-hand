@@ -9,8 +9,8 @@ _Objectives_:
 
 _Materials_:
 - **For 3D printing**:
-  - PLA 
-  - TPU (for the junctions)
+  - PLA (for the most solid structures; PLA has good tensile strength, rigid and a detailed and glossy surface quality)
+  - TPU (for the junctions; TPU has a great flexibility and an excellent impact to resistance)
   - Ultimaker 2+ (3D printer)
   - Sandpaper
 - **For the electronics of the hand**:
@@ -121,28 +121,22 @@ In the _void loop_, we have 2 conditions ‘’if’’.
 In **SolidWorks**, a computer assisted design software to model 3D parts and assemblies and 2D plans, we mainly use it to take measurements of some parts to be able to think how we would put all the electronic part. Once we decided that we were going to use only one servo and specifically the model chosen, we had to modify the box where we put the electronics to optimize the space and put an arduino mkr (although the use of smaller arduinos to control servos would be a more suitable option). Also with Solidworks we design a inner guide of the box and a hole hiding to route the lines and to make them not entangled between themselves when they are pulled by the servo, to make the movement of closing the hand and then the movement of opening. 
 Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with _Ultimaker 2+_.
 
-  _Printing parameters for PLA_:
-  - Layer height: 0.2mm               
-  - Wall thickness: 25%                
-  - Infill thickness: 25%             
-  - Top/Bottom thickness: 1mm         
-  - Build plate temperature: 60ºC     
-  - Filament diameter: 2.85           
-  - Printing temperature: 210ºC
-  - Print speed: 60 mm/sec.
-  - Travel speed: 100mm/s
-  - Enable print cooling: 
+  _Printing setting for PLA_:
+  - Extruder temperature: 180ºC - 210ºC
+  - Cooling fan: 100%
+  - Min. layer height: 0.08 - 0.2mm
+  - Bed. temperature: 60ºC
+  - Speed: 40 - 80mm/s → For hand and arm printing we reduced the speed to 20mm/s as these were larger pieces and we wanted to avoid bad cooling.
   - Support: not needed
   - Top/Bottom pattern: ZigZag
-  - Nozzle size: 0.4mm
-  - Build plate adhesion type: Brim
   
-  _Printing parameters for TPU_:    
-  - Printing temperature: 220-260ºC   
-  - Cooling fan: 0%                   
+  _Printing setting for TPU_:    
+  - Extruder temperature: 220ºC - 260ºC
+  - Cooling fan: without
   - Min. layer height: ≥0.1mm
   - Bed temperature: 40ºC
-  - Print speed: 15-40mm/sec.
+  - Speed: 15 - 40mm/s
+  To print TPU we have to store it in an airtight container with desiccant Dry filament before printing.
   
 For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
