@@ -119,7 +119,21 @@ In the _void loop_, we have 2 conditions ‘’if’’.
 
 
 In **SolidWorks**, a computer assisted design software to model 3D parts and assemblies and 2D plans, we mainly use it to take measurements of some parts to be able to think how we would put all the electronic part. Once we decided that we were going to use only one servo and specifically the model chosen, we had to modify the box where we put the electronics to optimize the space and put an arduino mkr (although the use of smaller arduinos to control servos would be a more suitable option). Also with Solidworks we design a inner guide of the box and a hole hiding to route the lines and to make them not entangled between themselves when they are pulled by the servo, to make the movement of closing the hand and then the movement of opening. 
-Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with Ultimaker 2+.
+Once we had all the pieces that we need, we adjusted the printing settings with Ultimaker Cura and finally we printed all the pieces with _Ultimaker 2+_.
+  _Printing parameters for PLA_:
+  - Layer height: 0.2mm               - Travel speed: 100mm/s
+  - Wall thickness: 25%               - Enable print cooling: 
+  - Infill thickness: 25%             - Support: not needed.
+  - Top/Bottom thickness: 1mm         - Top/Bottom pattern: ZigZag
+  - Build plate temperature: 60ºC     - Nozzle size: 0.4mm
+  - Filament diameter: 2.85           - Build plate adhesion type: Brim
+  - Printing temperature: 210ºC
+  - Print speed: 60 mm/sec.
+  _Printing parameters for TPU_:    
+  - Printing temperature: 220-260ºC   - Bed temperature: 40ºC
+  - Cooling fan: 0%                   - Print speed: 15-40mm/sec.
+  - Min. layer height: ≥0.1mm
+  
 For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
 With **Unity**, we tried to do to a real-time visualization of how the prosthetic hand works. This involved the use of the real-time engine of Unity linked with 3D rigging programs (in this case Blender was the idea). The idea was to open and close the animated hand depending on the input of the Arduino program mentioned avobe. Due to limited knowledge on Unity and some technical problems, finally, this couldn't be accomplished. Instead a 3D view of the completed hand has been done in Blender to show the final result of the prosthetics: 
