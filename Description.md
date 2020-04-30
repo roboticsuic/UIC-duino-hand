@@ -136,7 +136,7 @@ Once we had all the pieces that we need, we adjusted the printing settings with 
   - Min. layer height: ≥0.1mm
   - Bed temperature: 40ºC
   - Speed: 15 - 40mm/s
-  To print TPU we have to store it in an airtight container with desiccant Dry filament before printing.
+  - To print TPU we have to store it in an airtight container with desiccant Dry filament before printing.
   
 For a better final result of the 3D printed pieces we used sandpaper to polish them. 
 
